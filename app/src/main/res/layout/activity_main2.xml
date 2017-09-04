@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#AED6F1"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.lenovo.kailadevimela.Main2Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+
+        android:text="कैलादेवी मन्दिर राजस्थान राज्य के करौली नगर में स्थित एक प्रसिद्व हिन्दू धार्मिक स्थल है। जहाँ प्रतिवर्ष मार्च - अप्रॅल माह में एक बहुत बड़ा मेला लगता है। इस मेले में राजस्थान के अलावा दिल्ली, हरियाणा, मध्यप्रदेश, उत्तर प्रदेश के तीर्थ यात्री आते है। मुख्य मन्दिर संगमरमर से बना हुआ है जिसमें कैला (दुर्गा देवी) एवं चामुण्डा देवी की प्रतिमाएँ हैं। कैलादेवी की आठ भुजाऐं एवं सिंह पर सवारी करते हुए बताया है। यहाँ क्षेत्रीय लांगुरिया के गीत विशेष रूप से गाये जाते है। जिसमें लांगुरिया के माध्यम से कैलादेवी को अपनी भक्ति-भाव प्रदर्शित करते है।"
+        android:layout_width="wrap_content"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:id="@+id/textView"
+        android:textColor="#0A26EC"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1">
+        </TextView>
+    </ScrollView>
+</RelativeLayout>

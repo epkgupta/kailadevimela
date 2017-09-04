@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#AED6F1"
+    tools:context="com.example.lenovo.kailadevimela.Main7Activity">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+
+        <Button
+        android:text="मदन मोहन मंदिर"
+            android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button14"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+          />
+
+    <TextView
+        android:text="मदन मोहन मंदिर सिटी पेलेस से जुड़ा हुआ है। यह मंदिर भगवान विष्‍णु को समर्पित है। ऐसा माना जाता है कि इस मंदिर में और जयपुर के गोविंदजी और गोपीनाथ मंदिर में एक ही दिन दर्शन करना शुभ होता है। समय: गर्मियों में सुबह 4 बजे से 11.30 बजे तक, शाम 6.30 बजे से रात 9 बजे तक सर्दियों में सुबह 5 बजे से 12.30 बजे तक, शाम 5.30 बजे से रात 8 बजे तक है |"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#0A26EC"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+      />
+
+        <Button
+            android:text="तिमनगढ़ किला"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button15"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+        android:text="तीमनगढ़ करौली से 40 किलोमीटर दूर है। इस किले का निर्माण 12वीं शताब्‍दी के मध्‍य में हुआ था। अपने समय में तिमनगढ़ स्‍थानीय सत्‍ता का केंद्र था। 1196 में यहां के राजा कुंवर पाल का हराकर मोहम्‍मद गौरी और उनके सेनापति कुतुबुद्दीन ने इस पर अपना कब्‍जा कर लिया था। इसके बाद राजा कुंवर पाल को रेवा के एक गांव में शरण लेनी पड़ी। किले के मुख्‍य द्वार पर मुगल स्‍थापत्‍य कला का प्रभाव दिखाई पड़ता है। लेकिन किले के आं‍तरिक हिस्‍सों पर यह प्रभाव नहीं है। इसकी दीवारें, मंदिर और बाजार अपने सही रूप में देखे जा सकते हैं। किले से सागर झील का विहंगम दृश्‍य भी देखा जा सकता है।"
+        android:layout_width="wrap_content"
+            android:textSize="20dp"
+        android:textColor="#0A26EC"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+      />
+
+        <Button
+            android:text="श्री महावीरजी मंदिर"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button16"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        <TextView
+            android:text="श्री महावीर जी करौली से ३६ किलोमीटर दूर महावीरजी कस्वे मे स्थित है। यह मंदिर जैन धर्म की आस्था का केन्द्र है। इस मन्दिर मे भगवान महावीर कि तांबे से निर्मित प्रतिमा है, जोकी पद्मासन मे विराजित है। मंदिर के पास हि गम्भीरी नदी बहती है। महावीरजी कि प्रतिमा को जमीन से खोद कर प्राप्त किया गया है, जिससे से सम्बन्धित कथा है कि एक ग्वाले कि कामधेंनु गायें प्रतिदिन एक टीले पर जा कर अपना सारा दुध उस टीले पर फैला देती थीं। इस घटना से आश्चर्य चकित होकर ग्वाले व गाँव वालो ने उस टीले कि खुदाई कि तो वहाँ से महावीरजी कि मुर्ति निकली। यहाँ प्रतिवर्ष महावीर जयंती पर (अप्रैल माह मे) मेले का आयोजन किया जाता है, जो कि पाँच दिनो तक चलता है। मेले के अंतिम दिन रथ यात्रा निकाली जाती है व कई धार्मिक और सांस्कृतिक आयोजन किये जाते हैं। देशभर से हजारों श्रद्धालु इसमे सम्मिलित होने आते हैं।"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#0A26EC"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+          />
+        <Button
+            android:text="कैला देवी अभ्‍यारण्‍य"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button17"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        <TextView
+            android:text="यह अभ्‍यारण्‍य करौली से 23 किलोमीटर दक्षिण पश्चिम में स्थित है। इस अभ्‍यारण्‍य की सीमा कैलादेवी मंदिर के पास से शुरु होकर करन पुर तक जाती हैं और रणथंभौर राष्‍ट्रीय उद्यान से भी मिलती हैं। कैला देवी अभ्‍यारण्‍य में नीलगाय, तेंदुए और सियार के अलावा किंगफिशर में मिलते हैं।"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#0A26EC"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            />
+        <Button
+            android:text="करौली पशु मेला"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button18"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        <TextView
+            android:text="फरवरी में होने वाले पशु मेले में भाग लेने के लिए हजारों की संख्‍या में मवेशी यहां लाए जाते हैं। इस मेले में पशु दौड़ का आयोजन किया जाता है। इस दौड़ का उद्देश्‍य मनोरंजन के साथ-साथ अच्‍छे जानवरों की बिक्री भी होता है। इस मेले में अनेक ऐसी चीजें भी मिलती हैं जो आमतौर पर करौली में नहीं होती जैसे नागौरी माला, जोधपुरी पीतल का सामान आदि। स्‍थान: शहर के बाहर मेला द्वार के पास, भंवर विलास पेलेस होटल से एक किलोमीटर दूर समय: सुबह 6 बजे से शाम 7 बजे तक है|"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#0A26EC"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            />
+        <Button
+            android:text="सिटी पेलेस"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/button9"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+        <TextView
+            android:text="यह महल करौली का मुख्‍य आकर्षण है। इसका निर्माण अर्जुन पाल ने 14वीं शताब्‍दी में कराया था। लेकिन इसका वर्तमान स्‍वरूप का श्रेय राजा गोपाल सिंह को जाता है जिन्‍होंने 18वीं शताब्‍दी में इसका पुन: निर्माण करवाया था। लाल बलुआ पत्‍थर से बने इस महल में सफेद पत्‍थरों का भी खूबसूरती से इस्‍तेमाल किया गया है। महल की छत से शहर का पूरा दृश्‍य देखा जा सकता है। दीवान-ए-आम की जालियां और रंग पहल के रंगीन कांच से बने झरोखे भी देखने लायक हैं। 1950 में यह महल मदन मोहन ट्रस्‍ट को सौंप दिया गया।"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#0A26EC"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+
+
+</ScrollView>

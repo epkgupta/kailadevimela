@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lenovo.kailadevimela.MainActivity"
+    android:background="@drawable/kaila">
+
+    <TextView
+        android:id="@+id/text"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:padding="5dip"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="  कैलादेवी मेले के बारे में रोचक जानकारियाँ  "
+        android:textSize="20dp"/>
+
+    <Button
+        android:text="सामान्य जानकारी "
+        android:onClick="onclick"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/doitc"
+        android:id="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text" />
+
+    <TextView
+        android:text="       दर्शनों का समय प्रतिदिन       5AM से 12PM व 2PM से 8PM "
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView8"
+        android:textColor="#FDFEFE"
+        android:background="#27AE60"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/raj"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="मेले का इतिहास"
+        android:onClick="click"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:text="कथा एवं मान्यताएं"
+        android:onClick="click1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:text="जिला प्रशासन"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="click3"
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:layout_width="130dp"
+        android:onClick="click5"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:text="मंदिर प्रशासन " />
+
+    <Button
+        android:text="फोटो गलैरी "
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="click2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/button6"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
+
+    <Button
+
+        android:text="व्यवस्था प्रभारी"
+        android:layout_width="130dp"
+        android:onClick="click6"
+        android:layout_height="wrap_content"
+        android:id="@+id/button20"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/button7"
+        android:layout_alignLeft="@+id/button29"
+        android:layout_alignStart="@+id/button29"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:text="अन्य दर्शनीय स्थल"
+        android:layout_width="130dp"
+        android:onClick="click4"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:text=" विश्राम स्थल"
+        android:layout_width="130dp"
+        android:onClick="click10"
+        android:layout_height="wrap_content"
+        android:id="@+id/button29"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+</RelativeLayout>

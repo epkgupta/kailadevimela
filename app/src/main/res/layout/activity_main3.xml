@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+   android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#AED6F1"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lenovo.kailadevimela.Main3Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:text="उत्तर भारत के प्रमुख शक्तिपीठ के रूप में ख्याति प्राप्त कैला देवी मंदिर देवी भक्तों के लिए पूजनीय है, यहाँ आने वालों को सांसारिक भागमभाग से अलग अनोखा सुकून मिलता है। यही कारण है कि साल दर साल कैला माँ के दर्शनार्थियों की संख्या बढ़ती ही जा रही है। राजस्थान के करौली ज़िला से लगभग 25 किमी दूर कैला गाँव में कैला देवी मंदिर स्थापित है।                                     त्रिकूट मंदिर की मनोरम पहाड़ियों की तलहटी में स्थित इस मंदिर का निर्माण राजा भोमपाल ने 1600 ई. में करवाया था। इस मंदिर से जुड़ी अनेक कथाएं यहाँ प्रचलित है। माना जाता है कि भगवान कृष्ण के पिता वासुदेव और देवकी को जेल में डालकर जिस कन्या योगमाया का वध कंस ने करना चाहा था, वह योगमाया कैला देवी के रूप में इस मंदिर में विराजमान है। एक अन्य मान्यता के अनुसार पुरातन काल में त्रिकूट पर्वत के आसपास का इलाका घने वन से घिरा हुआ था। इस इलाके में नरकासुर नामक आतातायी राक्षस रहता था। नरकासुर ने आसपास के इलाके में काफ़ी आतंक कायम कर रखा था। उसके अत्याचारों से आम जनता दु:खी थी। परेशान जनता ने तब माँ दुर्गा की पूजा की और उन्हें यहाँ अवतरित होकर उनकी रक्षा करने की गुहार की। बताया जाता है कि आम जनता के दुःख निवारण हेतु माँ कैला देवी ने इस स्थान पर अवतरित होकर नरकासुर का वध किया और अपने भक्तों को भयमुक्त किया। तभी से भक्तगण उन्हें माँ दुर्गा का अवतार मानकर उनकी पूजा करते हुए आ रहे हैं। कैला देवी का मंदिर सफ़ेद संगमरमर और लाल पत्थरों से निर्मित है, जो स्थापत्य कला का बेमिसाल नमूना है।"
+        android:layout_width="match_parent"
+        android:gravity="fill_horizontal"
+        android:textSize="23dp"
+        android:textColor="#0A26EC"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="0dp"
+        android:id="@+id/textView2" />
+    </ScrollView>
+</RelativeLayout>

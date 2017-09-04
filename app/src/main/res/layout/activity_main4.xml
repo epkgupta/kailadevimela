@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#AED6F1"
+    android:paddingTop="@dimen/activity_vertical_margin"
+      tools:context="com.example.lenovo.kailadevimela.Main4Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:text="मान्यतानुसार कैला देवी मां द्वापर युग में कंस की कारागार में उत्पन्न हुई कन्या है, जो राक्षसों से पीड़ित समाज की रक्षा के लिए एक तपस्वी द्वारा यहां बुलाई गई थीं। बस तभी से मां कैला यहां आने वाले हर भक्त की मुराद पूरी करती हैं। चैत्र मास में सैंकड़ों किलोमीटर की पद यात्रा और कड़क दंडवत करते श्रद्वालुओं की आस्था देखते ही बनती है।
+मान्यता है कि मां के दरबार में जो भी मनौती मांगी जाती है उसे मां कैला निश्चित ही पूरा करती हैं। जब भक्तों की मनौती पूरी हो जाती है तो यह अपने परिवार सहित मां की जात करने बड़ी संख्या में कैलादेवी पहुंचते है, जिससे यहां लगने वाला लक्खी मेला मिनी कुंभ जैसा नजर आता है। इस मेले में लाखों की संख्या में श्रद्वालु आते हैं।
+सूनी गोद भरने की आस हो या सुहाग की चिरायु होने की कामना, कैला मां भक्त की हर मुराद जल्द ही पूरी करती है। लिहाज़ा मंदिर में आस पूरी होने पर श्रद्वालु अपने नवजात बच्चों को इस कैला मां के दरबार में लाते हैं, जिनका यहां मुंडन संस्कार किया जाता है। पूरे आस्थाधाम में सजी हरी चूड़ियाँ अमर सुहाग का प्रतीक है, जिन्हें यहां आने वाली हर श्रद्वालु महिला पहनना नहीं भूलती।
+मंदिर परिसर में लहलहाती धर्म पताकाएँ यहां की ख्याति का प्रतीक है। इन पताकाओं को पदयात्रा कर रहे श्रद्वालु अपने कंधों पर रखकर कई किलोमीटर की दुर्गम राह तय कर यहां चढाते हैं। कैलादेवी शक्तिपीठ आने वाले श्रद्वालुओं में मां कैला के साथ लांगुरिया भगत को पूजने की भी परंपरा रही है।
+लांगुरिया को मां कैला का अनन्य भक्त बताया जाता है। इसका मंदिर मां की मूर्ति के ठीक सामने विराजमान है। किवदंतियों के अनुसार स्वयं बोहरा भगत के स्वप्न में आने पर इस मंदिर को यहां बनवाया गया था।
+नए मकान की आस में यहां श्रद्वालु भक्तों द्वारा पर्वतमालाओं पर पत्थरों के छोटे छोटे प्रतीकात्मक मकान बनाए जाते हैं तो सुदूर क्षेत्र से आए श्रद्वालु यहां की पवित्र नदी कालीसिल में स्नान करना भी नहीं भूलते।
+श्रद्वालु महिलाएँ इस कालीसिल नदी में स्नान कर खुले केशों से ही मंदिर में पहुंचती है और मां कैलादेवी के दर्शन करने के बाद वहां कन्या लांगुरिया आदि को भोजन प्रसादी खिलाकर पुण्य लाभ अर्जित करती दिखाई देती हैं।                        "
+        android:layout_width="wrap_content"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:textColor="#0A26EC"
+        android:layout_marginTop="3dp"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    </ScrollView>
+
+
+</RelativeLayout>

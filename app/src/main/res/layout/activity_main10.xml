@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main10"
+    android:layout_width="match_parent"
+    android:layout_height="1000sp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lenovo.kailadevimela.Main10Activity">
+
+    <TextView
+        android:id="@+id/text_view4"
+        android:text="पानी व्यवस्था"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#5F9EA0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#DA70D6"
+        android:text="श्री शिम्भू दयाल(सहा.अभियंता) (प्रथम प्रभारी) \nMobile                            9414340871 \nश्री रामकेश मीना(कनि.अभियंता) सह प्रभारी \n Mobile                          7611045817 \n श्री पवन कुमार (कनि. अभियंता) सह प्रभारी  \nMobile                           7665419395 "
+        android:maxLines="6"
+        android:layout_below="@+id/text_view4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="बिजली व्यवस्था"
+        android:background="#5F9EA0"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_view2" />
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#DEB887"
+        android:text="श्री रूप सिंह (SE) (प्रथम प्रभारी)    \Mobile   9413390637 \n राजेश (कनि. अभियंता) सह प्रभारी \n Mobile          9413390670"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="चिकित्सा व्यवस्था "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="#5F9EA0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#8FBC8F"
+        android:text="श्री फूल सिंह मीना (प्रथम प्रभारी)  \nMobile        9414340483 \n डा. राहुल गुप्ता(PHC कैलादेवी) \n Mobile             9529641074"
+        android:minLines="4"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="सड़क व्यवस्था"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="#5F9EA0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView40"
+        android:layout_below="@+id/text_view3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="श्री राजीव सिंह(XEn) (प्रथम प्रभारी) \n Mobile    9414353039 \n आर.के . वर्मा (AEn)   सह प्रभारी  \n Mobile   9887840405"
+        android:minLines="4"
+        android:id="@+id/text"
+        android:textSize="20sp"
+        android:background="#DA70D6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView40"/>
+
+    <TextView
+        android:text="सफाई व्यवस्था "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="#5F9EA0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="श्री खेमराज(EO) (प्रथम प्रभारी)  \n Mobile    9694097353 \n श्री मनीष(EO) सह प्रभारी   \n Mobile   9672976600"
+        android:minLines="4"
+        android:textSize="20sp"
+        android:id="@+id/text1"
+        android:background="#DA70D6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView41"/>
+    <TextView
+        android:text="परिवहन व्यवस्था"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="#5F9EA0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView42"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="श्री जगदीश(DTO)  (सह प्रभारी)  \n Mobile         9166714161"
+        android:minLines="2"
+        android:textSize="20sp"
+        android:background="#DA70D6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView42"/>
+    <TextView
+        android:text="परिवहन"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="#5F9EA0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView43"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="श्री जगदीश(DTO)  (सह प्रभारी)  \n Mobile         9166714161"
+        android:minLines="2"
+        android:id="@+id/text3"
+        android:textSize="20sp"
+        android:background="#DA70D6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView42"/>
+    <TextView
+        android:text="उचित मूल्य की दुकान "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="#5F9EA0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView44"
+        android:layout_below="@+id/text3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="श्रीमती सुनीता(EI)  (प्रभारी)  \n Mobile         9413555176\n श्री हरविंद शर्मा(EI)  सह प्रभारी \n Mobile         7596742486"
+        android:minLines="3"
+        android:id="@+id/text01"
+        android:textSize="20sp"
+        android:background="#DA70D6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView44"/>
+    <TextView
+        android:text="अवैध शराब पाबन्दी "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="#5F9EA0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView45"
+        android:layout_below="@+id/text01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="श्री गुलाब नवी (PO)  (प्रभारी)  \n Mobile         764069215"
+        android:minLines="2"
+        android:textSize="20sp"
+        android:background="#DA70D6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView45"/>
+
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>
